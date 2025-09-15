@@ -6,7 +6,7 @@ import time
 base_url = "https://stock.adobe.com/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aaudio%5D=0&filters%5Binclude_stock_enterprise%5D=0&filters%5Bis_editorial%5D=0&filters%5Bfree_collection%5D=0&filters%5Bcontent_type%3Aimage%5D=1&k=Car+accident&order=relevance&limit=100&search_page={}&search_type=pagination&get_facets=0"
 
 downloaded = 0
-target = 1000
+target = 400
 
 for page in range(1, 11):  # pages 1 to 10
     if downloaded >= target:
